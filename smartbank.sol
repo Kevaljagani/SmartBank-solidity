@@ -45,7 +45,7 @@ contract SmartBankAccount {
     
     function withdraw() public payable {
         
-        //CAN YOU OPTIMIZE THIS FUNCTION TO HAVE FEWER LINES OF CODE?
+      
         
         address payable withdrawTo = payable(msg.sender);
         uint amountToTransfer = getBalance(msg.sender);
