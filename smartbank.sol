@@ -55,7 +55,7 @@ contract SmartBankAccount {
         ceth.redeem(getBalance(msg.sender));
     }
     
-    function addMoneyToContract() public payable {
+     function addMoneyToContract() public payable {
         totalContractBalance += msg.value;
     }
 
